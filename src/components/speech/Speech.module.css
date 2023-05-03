@@ -1,0 +1,32 @@
+.speechWrapper {
+	position: absolute;
+	width: 21vw;
+	z-index: 11;
+}
+.speechBox {
+	position: relative;
+	width: 100%;
+}
+.speechBack {
+    width: 100%;
+    opacity: 0.8;
+}
+.speechBack.rotRev {
+	-moz-transform: scaleY(-1);
+	-o-transform: scaleY(-1);
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+	margin-top: -16%;
+}
+.speechText {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    width: 84%;
+	transform: translateY(-50%);
+	color: black;
+	font-size: 1.9vw;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 500;
+}

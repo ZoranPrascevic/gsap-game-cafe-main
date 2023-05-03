@@ -1,0 +1,200 @@
+.wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../media/image/equipment.jpg);
+    background-size: cover;
+    z-index: 22;
+}
+.backNone {
+    background: none !important;
+}
+.instrBox {
+    position: absolute;
+    z-index: 30;
+	right: 2%;
+	border-radius: 1vw 1vw 0 0;
+	padding: 1vw 2vw 0 2vw;
+    bottom: 0;
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.808);
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+		forwards;
+	animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+@-webkit-keyframes slide-top {
+	0% {
+		-webkit-transform: translateY(100%);
+		transform: translateY(100%);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+@keyframes slide-top {
+	0% {
+		-webkit-transform: translateY(100%);
+		transform: translateY(100%);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+.instrHeader {
+	font-size: 2.5vw;
+	color: white;
+}
+.instrGuides {
+	font-size: 1.36vw;
+	color: white;
+	line-height: 1.3;
+	position: relative;
+}
+.instrSelects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: decimal;
+    padding-left: 5%;
+    color: white;
+    font-size: 1.36vw;
+    line-height: 1.5;
+    height: 8.5vw;
+}
+.instrItem {
+    width: 31%;
+    cursor: pointer;
+    user-select: none;
+}
+.instrItem.active {
+    text-shadow: 0 0 0.9vw rgba(250, 255, 179, 0.568);
+    color: #fffb00;
+}
+.wrapper svg {
+    opacity: 0;
+    z-index: 24;
+    position: absolute;
+}
+.wrapper svg path {
+    cursor: pointer;
+}
+.shakersSVG {
+    left: -4%;
+    top: 14%;
+    width: 25.7%;
+}
+.spoonsSVG {
+    left: 7.5%;
+    top: -1%;
+    width: 21.8%;
+}
+.muddlerSVG {
+    left: 19.3%;
+    top: 7.5%;
+    width: 7%;
+}
+.squeezerSVG {
+    top: 26%;
+    left: 16.5%;
+    width: 22%;
+}
+.tongsSVG {
+    top: 39%;
+    left: 41.3%;
+    width: 16.7%;
+}
+.jigger30SVG {
+    top: 52.5%;
+    left: 36.5%;
+    width: 6.5%;
+}
+.jigger20SVG {
+    top: 50.2%;
+    left: 46.5%;
+    width: 5.4%;
+}
+.openerSVG {
+    top: 52.5%;
+    left: 53.2%;
+    width: 5.3%;
+}
+.bittersSVG {
+    top: 10%;
+    left: 64.4%;
+    width: 6%;
+}
+.boardSVG {
+    top: 42.5%;
+    left: 61.3%;
+    width: 21.1%;
+}
+.strainerSVG {
+    top: 3%;
+    left: 80%;
+    width: 10.5%;
+}
+.wrapper img {
+    z-index: 23;
+    position: absolute;
+    opacity: 0;
+}
+.wrapper img.active {
+    opacity: 1 !important;
+}
+.wrapper img.shakers {
+    left: -5%;
+    top: 12%;
+    width: 27.7%;
+}
+.wrapper img.spoons {
+    left: 6.5%;
+    top: -2.5%;
+    width: 23.7%;
+}
+.wrapper img.muddler {
+    left: 18.3%;
+    top: 5.8%;
+    width: 8%;
+}
+.wrapper img.squeezer {
+    top: 24%;
+    left: 15.5%;
+    width: 24.3%;
+}
+.wrapper img.tongs {
+    top: 37%;
+    left: 40.3%;
+    width: 19%;
+}
+.wrapper img.jigger30 {
+    top: 50.5%;
+    left: 35.5%;
+    width: 8.5%;
+}
+.wrapper img.jigger20 {
+    top: 48.2%;
+    left: 45.5%;
+    width: 7.4%;
+}
+.wrapper img.opener {
+    top: 50.5%;
+    left: 52.2%;
+    width: 7.3%;
+}
+.wrapper img.bitters {
+    top: 8%;
+    left: 63.4%;
+    width: 8%;
+}
+.wrapper img.board {
+    top: 40.5%;
+    left: 60.3%;
+    width: 23%;
+}
+.wrapper img.strainer {
+    top: 1.5%;
+    left: 79%;
+    width: 12.5%;
+}

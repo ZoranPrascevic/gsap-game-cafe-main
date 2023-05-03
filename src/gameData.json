@@ -1,0 +1,307 @@
+[
+    [
+        {
+            "playType": "watch",
+            "video": 0,
+            "speech": {
+                "text": "Hi, one shot of Tequila please.",
+                "time": 3
+            },
+            "guides": true
+        },
+        {
+            "playType": "decide",
+            "answer": true,
+            "video": 1
+        },
+        {
+            "playType": "equipment",
+            "answer": 5,
+            "order": "Serve 30ml of Tequila in a shot glass"
+        },
+        {
+            "playType": "watch",
+            "video": 2
+        },
+        {
+            "playType": "glass",
+            "answer": 4
+        },
+        {
+            "playType": "watch",
+            "video": 3
+        },
+        {
+            "playType": "drink",
+            "answer": 3
+        },
+        {
+            "playType": "watch",
+            "video": 4
+        },
+        {
+            "playType": "pour",
+            "answer": false
+        },
+        {
+            "playType": "watch",
+            "video": 5
+        }
+    ],
+    [
+        {
+            "playType":"watch",
+            "video": 0,
+            "speech": {
+                "text": "Can I please have a glass of red wine?",
+                "time": 5
+            },
+            "guides": true
+        },
+        {
+            "playType": "decide",
+            "answer": true,
+            "video": 1
+        },
+        {
+            "playType": "glass",
+            "answer": 1,
+            "order": "Serve red wine in a wine glass up to the plimsol line"
+        },
+        {
+            "playType": "watch",
+            "video": 2
+        },
+        {
+            "playType": "drink",
+            "answer": 4
+        },
+        {
+            "playType": "watch",
+            "video": 3
+        },
+        {
+            "playType": "pour",
+            "answer": true
+        },
+        {
+            "playType": "watch",
+            "video": 4
+        },
+        {
+            "playType": "pour",
+            "answer": false
+        },
+        {
+            "playType": "watch",
+            "video": 5
+        }
+    ],
+    [
+        {
+            "playType": "watch",
+            "video": 0,
+            "speech": {
+                "text": "Hi, can I please have a baileys on ice?",
+                "time": 5.5
+            },
+            "guides": true
+        },
+        {
+            "playType": "decide",
+            "answer": true,
+            "video": 1
+        },
+        {
+            "playType": "equipment",
+            "answer": 5,
+            "order": "Serve 30ml of Baileys in a Tumbler glass with ice"
+        },
+        {
+            "playType":"watch",
+            "video": 2
+        },
+        {
+            "playType": "glass",
+            "answer": 5
+        },
+        {
+            "playType": "watch",
+            "video": 3
+        },
+        {
+            "playType": "drink",
+            "answer": 5
+        },
+        {
+            "playType": "watch",
+            "video": 4
+        },
+        {
+            "playType": "pour",
+            "answer": true
+        },
+        {
+            "playType": "watch",
+            "video": 5
+        },
+        {
+            "playType": "pour",
+            "answer": false
+        },
+        {
+            "playType": "watch",
+            "video": 6
+        }
+    ],
+    [
+        {
+            "playType": "watch",
+            "video": 0,
+            "speech": {
+                "text": "Can I have a vodka and soda water please?",
+                "time": 5
+            },
+            "guides": true
+        },
+        {
+            "playType": "decide",
+            "answer": true,
+            "video": 1
+        },
+        {
+            "playType": "equipment",
+            "answer": 5,
+            "order": "Serve 30ml of Vodka in a Tumbler glass with ice, then top up with soda water."
+        },
+        {
+            "playType":"watch",
+            "video": 2
+        },
+        {
+            "playType": "glass",
+            "answer": 5
+        },
+        {
+            "playType": "watch",
+            "video": 3
+        },
+        {
+            "playType": "drink",
+            "answer": 2
+        },
+        {
+            "playType": "watch",
+            "video": 4
+        },
+        {
+            "playType": "drink",
+            "answer": 10
+        },
+        {
+            "playType": "watch",
+            "video": 5
+        },
+        {
+            "playType": "pour",
+            "answer": false
+        },
+        {
+            "playType": "watch",
+            "video": 6
+        }
+    ],
+    [
+        {
+            "playType": "watch",
+            "video": 0,
+            "speech": {
+                "text": "Can I grab another shot of Tequila please?",
+                "time": 2
+            },
+            "guides": true
+        },
+        {
+            "playType": "decide",
+            "answer": false,
+            "video": 2,
+            "correctItems": [3],
+            "skip": [false, false, false, false, false, false, false, false, false]
+        },
+        {
+            "playType": "watch",
+            "video": 1,
+            "speech": {
+                "text": "What?!... OK, I'll get a beer then please.",
+                "time": 0
+            },
+            "guides": true
+        },
+        {
+            "playType": "decide",
+            "answer": true,
+            "video": 2
+        },
+        {
+            "playType": "equipment",
+            "answer": 7,
+            "order": "Open a bottle of beer and serve it in the bottle."
+        },
+        {
+            "playType":"watch",
+            "video": 3
+        },
+        {
+            "playType": "drink",
+            "answer": 9
+        },
+        {
+            "playType": "watch",
+            "video": 4
+        },
+        {
+            "playType": "pour",
+            "answer": false
+        },
+        {
+            "playType": "watch",
+            "video": 5
+        }
+    ],
+    [
+        {
+            "playType": "watch",
+            "video": 0,
+            "speech": {
+                "text": "Slurred Speech: \"I want a cocktail.\"",
+                "time": 8
+            },
+            "guides": true
+        },
+        {
+            "playType": "decide",
+            "answer": false,
+            "video": 1,
+            "correctItems": [0, 3],
+            "skip": [false, false, false, true, false, false, false, false, false]
+        },
+        {
+            "playType": "watch",
+            "video": 2,
+            "speech": {
+                "text": "What do you mean? I'm not drunk!!",
+                "time": 0
+            },
+            "quides": true
+        },
+        {
+            "playType": "watch",
+            "video": 3,
+            "speech": {
+                "text": "Awwww geeez...",
+                "time": 0
+            },
+            "quides": true
+        }
+    ]
+]
